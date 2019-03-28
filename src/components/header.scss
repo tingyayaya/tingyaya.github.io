@@ -1,0 +1,36 @@
+.header {
+  width: 960px;
+  margin: 0 auto;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  .logo{
+    width: 170px;
+    height: 80px;
+  }
+  .phone{
+    height: 25px;
+    width: 175px;
+  }
+  ul {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    li{
+      height: 100%;
+      line-height: 5;
+      margin: 0 20px;
+      a{
+        text-decoration: none;
+        color: #444;
+      }
+      a:hover{
+        color: #1C96DF;
+        border-bottom: 2px solid #1C96DF; 
+        padding-bottom: 6px;
+      }
+    }
+  }
+   
+}

@@ -1,0 +1,47 @@
+@import '~@/css/variables.scss';
+
+.list-phone {
+  margin: 50px 30px 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  li {
+    padding: 0 40px;
+    width: 260px;
+    .img-phone{
+      width: 180px;
+      height: 360px;
+      background: transparent url(~@/images/a-1.png) no-repeat;
+      background-size: 180px 360px; 
+      text-align: center;
+      .img{
+        width: 156px;
+        margin-top: 43px;
+      }
+    }
+    .img-phone2{
+      width: 180px;
+      height: 360px;
+      background: transparent url(~@/images/a-2.png) no-repeat;
+      background-size: 180px 360px; 
+      text-align: center;
+      .img{
+        width: 156px;
+        margin-top: 43px;
+      }
+    }
+    .text {
+      margin-top: 5px;
+      .title{ 
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 20px; 
+        word-wrap:break-word
+      }
+      span{
+        color: $gray-500;
+        word-wrap:break-word
+      }
+    }
+  }
+}
